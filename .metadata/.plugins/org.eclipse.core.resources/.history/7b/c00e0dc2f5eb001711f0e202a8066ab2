@@ -1,0 +1,28 @@
+package com.digitek.business;
+
+public class ArrayExample {
+	
+
+	    public static void main(String[] args) {
+
+	      int b = 10;
+
+	      int c = 20;
+
+	
+
+      int[] d = {20, 30, 40};
+
+	      int[] e = new int[10];
+
+	      
+
+	      System.out.println(d[0]);
+
+	      System.out.println(d.length);
+
+	      
+
+	      System.out.println(e[5]);
+	    }
+}

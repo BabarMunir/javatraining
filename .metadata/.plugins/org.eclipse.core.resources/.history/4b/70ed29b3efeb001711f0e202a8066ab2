@@ -1,0 +1,48 @@
+package com.digitek.business;
+
+public class BreakContinueExample {
+
+	
+		
+
+		       public static void main(String[] args) {
+
+		     
+
+		            String searchMe = "peter piper picked a " + "peck of pickled peppers";
+
+		            int maxLength = searchMe.length();
+
+		            boolean condition = false;
+
+		           // int numPs = 0;
+
+		     
+
+		            for (int i = 0; i < maxLength; i++) {
+
+		                // interested only in finding at-least one p is present
+
+		                if (searchMe.charAt(i) == 'i') {
+
+		                    condition = true;
+
+		                    break;
+
+		                }
+
+		                    
+
+
+
+		            }
+
+		            if (condition) {
+
+		                System.out.println("Found at-least one i's in the string.");
+
+		            }
+
+		        }
+
+		}
